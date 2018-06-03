@@ -1,0 +1,129 @@
+
+
+.how_it_wk_home{text-align: center}
+.download_our_app {
+  background: url(../../../assets/app_bg.jpg) no-repeat !important;
+  display: inline-block;
+  min-height: 263px;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+  background-size: cover;
+  -webkit-background-size: cover;
+}
+.footer {
+  display: inline-block;
+  width: 100%;
+  min-height: 206px;
+  background: #000;
+}
+
+.content_footer_right {
+  display: inline-block;
+  margin-top: 38px;
+  width: 100%;
+}
+.download_our_app.top_subsc h4 {
+  margin: 11px 0 10px;
+  line-height: 39px;
+  color: #ffffff;
+  font-size: 29px;
+}
+.content_footer_right_app {
+  display: inline-block;
+  width: 100%;
+}
+.download_our_app a {
+  display: inline-block;
+  margin: 0 14px 0 0;
+}
+.download_our_app1 {
+  text-align: center;
+  display: inline-block;
+  width: 100%;
+}
+.download_our_app1 h4 {
+  color: #ffffff;
+  font-size: 29px;
+  line-height: 30px;
+  margin: 50px 0 10px;
+  overflow-wrap: break-word;
+}
+
+.download_our_app1 h6 {
+  color: #fff;
+  display: inline-block;
+  font-size: 19px;
+  margin-bottom: 33px;
+  width: 100%;
+}
+
+.subscribe_footer {
+  margin: 0 auto;
+  width: 980px;
+}
+.cms_listing {
+  display: inline-block;
+  width: 100%;
+  margin-top: 0px;
+}
+.cms_listing ul li a {
+  display: inline-block;
+  width: 100%;
+  overflow-wrap: break-word;
+  padding: 0;
+  list-style: none;
+  line-height: 34px;
+  font-size: 16px;
+  font-family: LatoWeb;
+  color: #555;
+  overflow-wrap: break-word;
+}
+
+.cms_listing ul li a:hover{color: #ff1940;text-decoration: none}
+.cms_listing ul li {
+  display: inline-block;
+  background: url(../../../assets/dots.png) left center no-repeat;
+  padding: 0 10px 0 18px;
+  list-style: none;
+}
+.subscribe_footer .form-control {
+  display: block;
+  width: 100%;
+  height: 53px;
+  box-shadow: none;
+  font-size: 16px;
+  padding: 6px 12px;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.subscriber_sce .btn-default {
+  background: #ff1940;
+  border: #ff1940;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 300;
+  color: #fff;
+  text-transform: uppercase;
+  height: 53px;
+}
+.social_share {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 10px;
+}
+.social_share .fab{font-size: 25px}
+.social_share ul li a {
+  color: #fff;
+}
+.social_share ul li {
+  display: inline-block;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+  margin: 0 12px;
+}

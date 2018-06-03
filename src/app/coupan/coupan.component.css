@@ -1,0 +1,46 @@
+.offer_tabs_section {
+  display: inline-block;
+  width: 100%;
+  margin: 32px 0 0 0;
+}
+.offres_title {
+  font-size: 25px;
+  color: #000;
+  background: #EBEBEB;
+  padding: 11px 14px 9px;
+}
+.no_store_img {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  margin-top: 45px;
+}
+
+.offers_list {
+  display: inline-block;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.no_store_avlable {
+  display: inline-block;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 3px 5px 3px #f0f0f0;
+  -webkit-box-shadow: 0 3px 5px 3px #f0f0f0;
+  min-height: 257px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+.offer_common_setions {
+  display: inline-block;
+  width: 1109px;
+  margin-bottom: 25px;
+}
+.no_store_img p {
+  display: inline-block;
+  width: 100%;
+  font-size: 22px;
+  color: #bfbebe;
+  margin-top: 29px;
+}

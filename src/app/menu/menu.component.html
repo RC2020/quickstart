@@ -1,0 +1,123 @@
+<div class="menucart">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col padding0 flex_cust">
+        <div class="categaryList">
+          <p-scrollPanel [style]="{width: '100%', height: '548px'}" styleClass="custom">
+            <p-listbox [options]="cities" [(ngModel)]="selectedCities" multiple="multiple" checkbox="checkbox" filter="filter" optionLabel="name">
+              <p-header>
+                <i class="fas fa-filter"></i>
+                Category
+              </p-header>
+            </p-listbox>
+            <!--<p>Selected Category: <span *ngFor="let c of selectedCities" style="margin-right: 10px">{{c.name}}</span></p>-->
+          </p-scrollPanel>
+        </div>
+      </div>
+      <div class="col-sm-6 padding0" >
+        <p-scrollPanel [style]="{width: '100%', height: '548px', display:'inline-block' }" styleClass="custom">
+
+          <mat-accordion   *ngFor="let key of objectKeys(productList)">
+            <mat-expansion-panel >
+              <mat-expansion-panel-header>
+                <mat-panel-title>
+                  {{ getCatname(key) }}
+                </mat-panel-title>
+                <!--<mat-panel-description>-->
+                <!--</mat-panel-description>-->
+              </mat-expansion-panel-header>
+              <div class="store_listing_det_inf " *ngFor="let skey of objectKeys(productList[key])">
+
+                <div class="row" >
+                  <div class="col-md-3 padding_right0 cust_col">
+                    <div class="n6lb_ne_img">
+                      <img src="../../assets/309.jpg" title="Shrimp pizza" alt="Shrimp pizza">
+                    </div>
+                  </div>
+                  <div class="col padding0 ">
+                    <div class="n6lb_ne_middle">
+                        <h1>{{productList[key][skey]['product_name']}}</h1>
+                      <!--<h1> Key: {{entry.key}}, value: {{entry.value}}</h1>-->
+                      <p>Tasty</p>
+                      <div class="off_onn">
+                        <span class="inf_off"><img src="http://demo.localao.com/assets/front/oneplus/images/offline.jpg" alt="No menu available. Please try with other menu."></span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div class="count_right_n6lb">
+                      <label>
+                        ₹4.9
+                      </label>
+                      <div class="cart_add btn-lg">
+                        <span class="add_text_hover"> <i class="fas fa-shopping-cart"></i>Add</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </mat-expansion-panel>
+
+
+
+
+
+          </mat-accordion>
+        </p-scrollPanel>
+      </div>
+      <div class="col-sm">
+        <mat-card class="example-card">
+          <mat-card-header>
+            <mat-card-title>
+              <i class="fas fa-cart-plus"></i> Your cart
+            </mat-card-title>
+          </mat-card-header>
+          <mat-card-content>
+            <div class="yourcart">
+              <div class="row">
+                <div class="col col-md-12">
+                  <div class="cart_border">
+                    <div class="row">
+                      <div class="col">
+                        <div class="input_stepper">
+                          <input type="number" value="500" min="0" max="1000" step="10"/>
+                        </div>
+                      </div>
+                      <div class="col"><p>Deep fried stuffed crabs</p></div>
+                      <div class="col">
+                        <div class="minus_btn">
+                          <span class="number">1920.00</span>
+                          <i class="fas fa-minus-square"></i>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col col-md-12">
+                  <ul class="add_ul">
+                    <li class="addcart_list"><p>Subtotal<span class="rupee"><b>&#x20b9;</b> 19.25</span></p></li>
+                    <li class="addcart_list"><p>Delivery fee<span class="rupee"><b>&#x20b9;</b> 19.25</span></p></li>
+                    <li class="addcart_list"><p>Service tax<span class="rupee"><b>&#x20b9;</b> 19.25</span></p></li>
+                    <li class="addcart_list"><p>Total<span class="rupee"><b>&#x20b9;</b> 19.25</span></p></li>
+
+                  </ul>
+                </div>
+                <div class="col">
+                  <div class ="addcart_btn">
+                    <button type="button" class="btn btn-secondary btn-lg">Proceed to checkout</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+

@@ -1,0 +1,155 @@
+
+<!-- Login Modal -->
+<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="sign_up_inner">
+          <h2>
+            Sign In<br>
+            <div id="success_message_login" style="display:none">logged in successfully</div>
+            <span class="bottom_border"></span>
+          </h2>
+          <form method="POST">
+            <div class="row">
+              <div class="col col-md-6">
+                <div class="form-group">
+                  <input type="email" maxlength="256" name="email" class="form-control" required="" id="exampleInputEmail" placeholder="Email">
+                </div>
+              </div>
+              <div class="col col-md-6">
+                <div class="form-group">
+                  <input type="password" maxlength="32" name="password" class="form-control" required="" id="exampleInputPassword13" placeholder="Password">
+                </div>
+              </div>
+              <div class="col col-md-6" >
+                <div class = "form-group">
+                  <p class="sign_up" id="signup_link">Don’t have an account? <a href="javascript:;" title="Sign In">Sign Up</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col col-md-6">
+                <div class="form-group">
+                  <div class="sign_bot_sub">
+                    <button type="button" class="btn btn-primary cancel_button" data-dismiss="modal">Cancel</button>
+                    <button type="submit" id="signsubmit" class="btn btn-default" title="Submit" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing">Sign In</button>
+                    <div id="ajaxloading" style="display:none;">
+                      <div class="loader-coms">
+                        <div class="loder_gif">
+                          <img src="http://demo.localao.com/assets/front/oneplus/images/ajax-loader.gif">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12">
+                <span class="forgout_pass"><a id="forgot_pass" href="javascript:;" title="Forgot password?">Forgot password?</a></span>
+              </div>
+              <div class="col-md-12 fb_or">
+                <span><img src="http://demo.localao.com/assets/front/oneplus/images/or.png" alt=""></span>
+                <a href="http://demo.localao.com/auth/facebook" title="Sign Up with facebook?"> <i class="glyph-icon flaticon-facebook-logo"></i>Sign Up with facebook?</a>
+              </div>
+              <div class="col-md-12 fb_or" id="cart_popup" style="display:none;">
+                <span><img src="http://demo.localao.com/assets/front/oneplus/images/or.png" alt=""></span>
+                <a href="http://demo.localao.com/guest-checkout" title="Express checkout">Express checkout</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Sign Up Modal -->
+<div class="modal fade" id="SignUp" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Sign Up</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <div class="sign_up_inner">
+          <h2>Sign Up<br><span class="bottom_border"></span></h2>
+          <div id="success_message_signup"> </div>
+          <form method="POST">
+            <div class="row">
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                  <input type="text" maxlength="56" name="first_name" class="form-control" required="" placeholder="First name (Required)">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                  <input type="text" maxlength="56" name="last_name" class="form-control" required="" placeholder="Last name (Required)">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                  <input type="email" name="email" maxlength="250" class="form-control" required=""  placeholder="Email (Required)">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                  <input type="password" name="password" maxlength="15" required="" id="password" placeholder="Password (Required)" class="form-control">
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                  <div class="gender_section">
+                    <label class="left_label">Gender</label>
+                    <label class="label_radio r_on" for="radio-02">
+                      <input required="" checked="" name="gender" id="radio-02" value="F" type="radio">Female</label>
+                    <label class="label_radio" for="radio-03">
+                      <input required="" name="gender" id="radio-03" value="M" type="radio">Male</label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 check_sect">
+                <label class="label_check c_on" for="checkbox-01">
+                  <input name="terms_condition" id="checkbox-01" value="1" type="checkbox" checked="">I agree the <a href="http://demo.localao.com/cms/terms-and-conditions" target="_blank" title="">Terms and conditions</a> of Oneplus </label>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                  <p class="sign_up" id="sign_in">Already have account? <a href="javascript:;" title="Sign In">Sign In</a>
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-6 col-sm-12 col-xs-12">
+                <div class="form-group">
+                  <div class="sign_bot_sub">
+                    <button type="button" class="btn btn-primary cancel_button" data-url="" title="Cancel">Cancel</button>
+                    <button type="submit" class="btn btn-default" id="signupsubmit" title="Submit" data-loading-text="<i class='fa fa-circle-o-notch fa-spin'></i> Processing">Sign Up</button>
+                    <div class="ajaxloading" style="display:none;">
+                      <div class="loader-coms">
+                        <div class="loder_gif">
+                          <img src="http://demo.localao.com/assets/front/oneplus/images/ajax-loader.gif">
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-12 fb_or">
+                <span><img src="http://demo.localao.com/assets/front/oneplus/images/or.png" alt=""></span>
+                <a href="http://demo.localao.com/auth/facebook" title="Sign Up with facebook?"> <i class="glyph-icon flaticon-facebook-logo"></i>Sign Up with facebook?</a>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

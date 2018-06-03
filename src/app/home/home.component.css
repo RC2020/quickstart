@@ -1,0 +1,51 @@
+
+::ng-deep body{margin: 0px !important;}
+.header {background: #ff1940;}
+
+
+
+.right_navbar{ float:right;padding-top: 18px}
+.header a{text-decoration: none; color: #fff}
+.list-inline-item{margin-right: 40px;}
+.fdgh {
+  padding: 15px 0 15px 0px;
+}
+.center_text {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.center_text h3 {
+  display: inline-block;
+  font-size: 40px;
+  color: #ff1940;
+  margin: 48px 0 0;
+}
+.center_text span {
+  display: inline-block;
+  width: 100px;
+  border-top: 2px solid #ff1940;
+  height: 2px;
+  margin: 17px 0 0;
+  vertical-align: top;
+}
+.how_list {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.how_list h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  font-family: LatoWeb;
+}
+.how_list p {
+  font-size: 16px;
+  font-weight: 300;
+  color: #999;
+  overflow-wrap: break-word;
+  font-family: LatoWeb;
+}

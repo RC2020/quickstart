@@ -1,0 +1,126 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.modal-header{background-color: #ff1940;
+  color:#fff;
+}
+.modal-content{ border-bottom: 2px solid #ff1940;}
+.close{color:#fff !important;}
+.sign_up_inner h2 {
+  margin: 26px 0 26px 0;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  font-family: LatoWeb;
+  line-height: 12px;
+  font-size: 16px;
+  font-weight: normal;
+  color: #555;
+  text-transform: uppercase;
+}
+.bottom_border {
+  display: inline-block;
+  width: 26px;
+  height: 3px;
+  border-bottom: 3px solid #ff1940;
+}
+.sign_up_inner .form-control {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  color: #333;
+  height: 40px;
+  border: 1px solid #c2c2c2;
+  display: inline-block;
+}
+.sign_up {
+  margin: 11px 0 0;
+  color: #555;
+  font-family: LatoWeb;
+  font-size: 14px;
+  font-weight: 300;
+}
+.check_sect label a, .sign_up a {
+  font-size: 16px;
+  font-family: LatoWeb;
+  color: #ff1940;
+  font-weight: 300;
+  text-decoration: none !important;
+}
+.sign_bot_sub .btn-primary {
+  background: #b7b7b7;
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: LatoWeb;
+  color: #fff;
+  font-weight: 300;
+  border: 0;
+  padding: 9px 30px;
+  cursor: pointer;
+}
+
+.sign_bot_sub .btn-primary:hover{ background: #ff1940; color: #fff}
+.sign_bot_sub .btn-default {
+  background: #ff1940;
+  border-radius: 0;
+  margin: 0 0 0 10px;
+  box-shadow: none;
+  font-size: 14px;
+  font-family: LatoWeb;
+  color: #fff;
+  font-weight: 300;
+  border: 0;
+  padding: 9px 30px;
+  cursor: pointer;
+}
+.sign_bot_sub .btn-default:hover{background: #b7b7b7}
+.forgout_pass {
+  float: right;
+  clear: both;
+}
+.forgout_pass a {
+  font-size: 14px;
+  font-family: LatoWeb;
+  color: #ff1940;
+  font-weight: 300;
+  text-decoration: none;
+}
+.fb_or span {
+  display: inline-block;
+  width: 100%;
+  margin: 5px 0 18px 0;
+  text-align: center;
+  vertical-align: middle;}
+.fb_or a {
+  display: inline-block;
+  background: #4660a4;
+  min-height: 40px;
+  font-size: 14px;
+  font-family: LatoWeb;
+  color: #fff;
+  font-weight: 300;
+  min-height: 40px;
+  line-height: 40px;
+  padding: 0 39px;
+  margin: 0 0 26px 0;
+  text-decoration: none;
+  text-align: center;
+}
+.fb_or{text-align: center}
+.fb_or a:hover {
+  opacity: .5;
+}
+.gender_section {
+  display: inline-block;
+  margin: 13px 0 3px;
+  width: 100%;
+}
+.left_label, .label_radio {
+  font-size: 16px;
+  font-family: LatoWeb;
+  color: #c2c2c2;
+  font-weight: 300;
+  margin: 0 11px 0 0;
+}
+
